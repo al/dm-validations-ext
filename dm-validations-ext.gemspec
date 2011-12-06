@@ -51,7 +51,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<jeweler>, ["~> 1.5.2"])
       s.add_development_dependency(%q<rake>, ["~> 0.8.7"])
       s.add_development_dependency(%q<rspec>, ["~> 2.4"])
-      s.add_runtime_dependency(%q<dm-validations>, ["~> 1.1.0"])
+      s.add_runtime_dependency(%q<dm-validations>, ["~> 1.2.0"])
       s.add_development_dependency(%q<rspec>, ["~> 2.0.1"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.4"])
     else
@@ -59,7 +59,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
       s.add_dependency(%q<rake>, ["~> 0.8.7"])
       s.add_dependency(%q<rspec>, ["~> 2.4"])
-      s.add_dependency(%q<dm-validations>, ["~> 1.1.0"])
+      s.add_dependency(%q<dm-validations>, ["~> 1.2.0"])
       s.add_dependency(%q<rspec>, ["~> 2.0.1"])
       s.add_dependency(%q<jeweler>, ["~> 1.4"])
     end
@@ -68,7 +68,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
     s.add_dependency(%q<rake>, ["~> 0.8.7"])
     s.add_dependency(%q<rspec>, ["~> 2.4"])
-    s.add_dependency(%q<dm-validations>, ["~> 1.1.0"])
+    s.add_dependency(%q<dm-validations>, ["~> 1.2.0"])
     s.add_dependency(%q<rspec>, ["~> 2.0.1"])
     s.add_dependency(%q<jeweler>, ["~> 1.4"])
   end
