@@ -9,7 +9,8 @@ DM_VERSION     = '~> 1.1.0'
 DO_VERSION     = '~> 0.10.2'
 DM_DO_ADAPTERS = %w[ sqlite postgres mysql oracle sqlserver ]
 
-gem 'dm-core', DM_VERSION, SOURCE => "#{DATAMAPPER}/dm-core#{REPO_POSTFIX}"
+gem 'dm-core', SOURCE => "#{DATAMAPPER}/dm-core", :tag => "v1.2.0"
+gem 'dm-validations', :tag => "v1.2.0"
 
 group :development do
 
@@ -57,7 +58,7 @@ group :datamapper do
   plugins = plugins.to_s.tr(',', ' ').split.push('dm-migrations').uniq
 
   plugins.each do |plugin|
-    gem plugin, DM_VERSION, SOURCE => "#{DATAMAPPER}/#{plugin}#{REPO_POSTFIX}"
+    gem plugin, SOURCE => "#{DATAMAPPER}/#{plugin}#{REPO_POSTFIX}", :tag => "v1.2.0"
   end
 
 end
